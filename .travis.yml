@@ -1,0 +1,5 @@
+language: c
+scrpit:
+  - cc --version
+  - cc src/hello.c -o hello.o && ./hello.o
+
