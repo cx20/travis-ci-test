@@ -1,5 +1,6 @@
-language: c
+language: cpp
+compiler:
+    - gcc-4.8
 scrpit:
-  - cc --version
-  - cc src/hello.c -o hello.o && ./hello.o
+    - g++ src/hello.c -o hello.o && ./hello.o
 
