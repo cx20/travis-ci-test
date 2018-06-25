@@ -1,6 +1,6 @@
-language: cpp
-compiler:
-    - gcc-4.8
-scrpit:
-    - g++ src/hello.c -o hello.o && ./hello.o
-
+language: c     # 言語をC言語に設定 
+compiler:       # clangとgccの両方でテストするよう設定
+  - clang
+  - gcc
+script:         # テストの内容
+    make && make test
