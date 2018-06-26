@@ -1,6 +1,6 @@
-version: 0.0.4-26-g5494-mod
-branch: develop
-b399fb32c2e613f5ba8d7472c692df56c08031cb3854565d8b1b74af07d7e1c8 ./build/glboost.js
-b399fb32c2e613f5ba8d7472c692df56c08031cb3854565d8b1b74af07d7e1c8 ./build/glboost.js
-e82866637a0664b06280aa84b776512df017af14078a46a76907cd3a83e8ea1f ./build/glboost.min.js
-409d6ca9767c50a0f84dd0faca77ba13c86467f6c8a2611440765bfaa5223591 ./build/glboost.min.js.map
+version: UKNOWN
+branch: app/GLBoost
+
+
+
+

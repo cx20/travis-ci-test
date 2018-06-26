@@ -7,8 +7,7 @@
     "example": "examples"
   },
   "scripts": {
-    "setup": "cp ./pre-commit ./.git/hooks",
-    "build": "npm run setup && npm run build-middle && npx uglifyjs --source-map \"base='./build/',url='glboost.min.js.map'\" -o ./build/glboost.min.js -- ./build/glboost.js && bash versioning.sh",
+    "build": "npm run build-middle && npx uglifyjs --source-map \"base='./build/',url='glboost.min.js.map'\" -o ./build/glboost.min.js -- ./build/glboost.js && bash versioning.sh",
     "build-middle": "rollup -c src/middle_level/rollup.config.js",
     "test": "mocha --compilers js:babel-register --timeout 10000 --recursive test/*.spec.js",
     "esdoc": "esdoc -c esdoc.json",
