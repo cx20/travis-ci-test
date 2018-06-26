@@ -1,0 +1,5 @@
+#!/bin/sh
+
+npm rum build
+
+git add ./VERSION-FILE ./build/glboost.js ./build/glboost.min.js ./build/glboost.min.js.map

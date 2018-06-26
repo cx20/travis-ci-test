@@ -1,0 +1,16 @@
+[ignore]
+.*/node_modules/stylelint/.*
+.*/node_modules/config-chain/test/.*
+.*/docs/.*
+
+[include]
+
+[libs]
+
+[lints]
+
+[options]
+munge_underscores=true
+;unsafe.enable_getters_and_setters=true
+
+[strict]

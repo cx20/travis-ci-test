@@ -1,5 +1,5 @@
-language: c
-compiler:
-  - gcc
+language: node_js
+node_js:
+ - "node"
 script:
-    make && make test
+ - npm run build

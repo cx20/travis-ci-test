@@ -1,0 +1,7 @@
+{
+  "source": "./src",
+  "destination": "./docs/documents/api",
+  "plugins": [
+    {"name": "esdoc-flow-type-plugin", "option": {"enable": true}}
+  ]
+}
